@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.banner {
+    display: flex;
+    height: 50%;
+    color: ghostwhite;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-title {
+    width: 40%;
+    font-size: 50px;
+}
+
+.about-me {
+    width: 40%;
+}
+
+.title {
+    font-size: bold;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.portfolio {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    width: 40%;
+    margin: 30px;
+}
+
+.picture-project img {
+    width: 200%;
+    height: 100px;
+}
+
+.text-content {
+    margin: 50px;
+}
+
+.resume {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+a {
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+.contact-me {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.icon-media {
+    width: 500px;
+}
